@@ -15,7 +15,7 @@
     "eslint": "npx eslint . --fix ",
     "build": "webpack",
     "start": "webpack serve --open",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b gh-pages-new"
   },
   "repository": {
     "type": "git",
@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "license-webpack-plugin": "^4.0.2"
   }
